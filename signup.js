@@ -15,8 +15,6 @@ form.addEventListener('submit', (event) => {
             errSuccessMsg.innerHTML = "Password is not Matched";
             errSuccessMsg.style.color = "orange";
             document.getElementById("confirm-pass").value = "";
-            // confirmPassword.value = "";
-            // confirmPassword.focus();
             document.getElementById("confirm-pass").focus();
             return;
         }

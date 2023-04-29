@@ -13,7 +13,7 @@
 
 const formData = JSON.parse(localStorage.getItem('data'));
 if (!formData || !formData.accessToken) {
-    window.location.href = '/signup.html';
+    window.location.href = '/index.html';
 } else {
     // console.log(formData.accessToken);
     document.querySelector('#name').textContent = formData.fullName;
@@ -22,7 +22,7 @@ if (!formData || !formData.accessToken) {
     const logOutBtn = document.querySelector("#logout-btn");
     logOutBtn.addEventListener("click", () => {
         localStorage.removeItem("data");
-        window.location.href = 'signup.html';
+        window.location.href = 'index.html';
     });
 }
 
