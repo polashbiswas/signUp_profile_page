@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar a:first-child {
+    margin-left: 0;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    /* margin-right: 30px; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-form {
+    width: 70%;
+}
+
+.container-form input {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-bottom: 1px solid #fff;
+    background-color: #000;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* ::placeholder {
+    color: #fff;
+    opacity: 1;
+} */
+.container-form h1{
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.btn{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    padding: 0.4rem 2rem;
+}
+.profile-container{
+    margin: 2.5rem;
+}
+.profile-container h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    /* font-size: 2rem; */
+}
+.profile-container h1 span{
+    color: #2a788b;
+    margin-left: 1rem;
+}
+#logout-btn{
+    padding: 0.4rem 2.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Inter', sans-serif;
+}
+#err-success{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Inter', sans-serif;
+}
