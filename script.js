@@ -1,3 +1,5 @@
+//not working
+
 
 // const signUp = document.getElementById("signup-btn");
 
@@ -22,6 +24,7 @@
 //     window.location.href = "profile.html";
 //     showData();
 // });
+
 // function showData(){
 //     let profile = document.getElementById("profile-container");
 //     let userData = JSON.parse(localStorage.getItem("email"));
