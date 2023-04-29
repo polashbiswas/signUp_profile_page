@@ -18,7 +18,7 @@ if (!formData || !formData.accessToken) {
     // console.log(formData.accessToken);
     document.querySelector('#name').textContent = formData.fullName;
     document.querySelector('#email').textContent = formData.email;
-    document.querySelector('#password').textContent = formData.password;
+    document.querySelector('#password').textContent = formData.password.replace(/./g, "X");
     const logOutBtn = document.querySelector("#logout-btn");
     logOutBtn.addEventListener("click", () => {
         localStorage.removeItem("data");
